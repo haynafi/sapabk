@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer create-project:*)",
+      "Bash(MSYS_NO_PATHCONV=1 docker run:*)",
+      "Bash(test:*)",
+      "Bash(docker info:*)",
+      "Bash(./vendor/bin/sail up:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker-compose ps:*)",
+      "Bash(docker-compose build:*)",
+      "Bash(docker-compose exec:*)",
+      "Bash(powershell -Command \"Test-Path ''D:\\\\Nafi\\\\sapabk\\\\public\\\\icons''\")",
+      "Bash(powershell -Command \"Remove-Item ''D:\\\\Nafi\\\\sapabk\\\\resources\\\\js\\\\Pages\\\\Welcome.vue'' -Force\")",
+      "Bash(powershell -Command \"Test-Path ''D:\\\\Nafi\\\\sapabk\\\\resources\\\\js\\\\Pages\\\\Welcome.vue''\")",
+      "Bash(dir:*)"
+    ]
+  }
+}
